@@ -8,5 +8,5 @@ csv_data = \
 10,11,0.23 '''
 df = pd.read_csv(StringIO(csv_data))
 print(df)
-stats_df = df.isnull().sum
+stats_df = df.isnull().sum()
 print(stats_df)
